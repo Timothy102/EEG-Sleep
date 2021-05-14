@@ -1,0 +1,8 @@
+logs/*
+*.docx
+*.pdf
+*.txt
+*.csv
+*.tsv
+*.zip
+*.pth
