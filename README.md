@@ -8,7 +8,7 @@ You can read the whole paper at : https://www.academia.edu/s/be1e1d7846
 
 ## The Model Architecture
 
-<img src="https://github.com/Timothy102/EEG-sleep/blob/main/images/model.png" alt="drawing" width="750"/>
+<img src="https://github.com/Timothy102/EEG-Sleep/blob/main/images/model.png" alt="drawing" width="750"/>
 
 # Requirements
 
@@ -39,7 +39,7 @@ To extract the 30-second epochs, use the code below! :)
 python prepare_physionet.py --data_dir data_2013 --output_dir data_2013/eeg_pz_oz --select_ch 'EEG Pz-Oz'
 ```
 
-<img src="https://github.com/Timothy102/EEG-sleep/blob/main/images/alice.png" alt="drawing" width="750"/>
+<img src="https://github.com/Timothy102/EEG-Sleep/blob/main/images/alice.png" alt="drawing" width="750"/>
 
 
 
