@@ -41,16 +41,19 @@ python prepare_physionet.py --data_dir data_2013 --output_dir data_2013/eeg_pz_o
 
 <img src="https://github.com/Timothy102/EEG-Sleep/blob/master/images/alice.png" alt="drawing" width="750"/>
 
+## Training
+
+You can easily train the model by calling the ``` train.sh ```or by manually following the parsing arguments in the train.py file. Be careful of the data types and shapes you are trying to import. For a full pretrained model, feel free to contact me. 
+
+## Inference
+
+Follow the steps in test.sh :)
+
+## Contact and Acknowledgements
+
+I would like to thank the Physionet's Sleep EDF community for the open dataset upon which my research was concluded. Feel free to contact me with any proposals on LinkedIn: linkedin.com/in/tim-cvetko-32842a1a6/ or Mail: cvetko.tim@gmail.com :D
 
 
 ## References
  [github:akaraspt](https://github.com/akaraspt/deepsleepnet)  
  [deepschool.io](https://github.com/sachinruk/deepschool.io/blob/master/DL-Keras_Tensorflow)
- ```
-@article{mousavi2019sleepEEGnet,
-  title={SleepEEGNet: Automated Sleep Stage Scoring with Sequence to Sequence Deep Learning Approach},
-  author={Sajad Mousavi, Fatemeh Afghah and U. Rajendra Acharya},
-  journal={arXiv preprint arXiv:1903.02108},
-  year={2019}
-}
-```
