@@ -45,6 +45,14 @@ python prepare_physionet.py --data_dir data_2013 --output_dir data_2013/eeg_pz_o
 
 You can easily train the model by calling the ``` train.sh ```or by manually following the parsing arguments in the train.py file. Be careful of the data types and shapes you are trying to import. For a full pretrained model, feel free to contact me. 
 
+* Modify the arguments in the train.sh file to your preferences. Data should not be bigger than 10GB. 
+* For example, to run the training script with a batch size of 32 and 10 epochs with your dataset currently stored under "data" this is how you should continue:
+
+```
+python train.py --filepath data --batch_size 32 --epochs 10
+```
+
+
 ## Inference
 
 Follow the steps in test.sh :)
