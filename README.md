@@ -20,7 +20,7 @@ You can read the whole paper at : https://www.academia.edu/s/be1e1d7846
 * datetime==4.3
 
 `
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 `
 
 
