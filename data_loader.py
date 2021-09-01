@@ -8,11 +8,12 @@ from os.path import isfile, join
 from tqdm import tqdm
 import tensorflow as tf
 
+from PyEMD import EMD
+
 
 from tensorflow.keras import Model, Input, Sequential
 from tensorflow.keras.optimizers import Adam, RMSprop, SGD
 from tensorflow.keras.layers import *
-from fourier import eemd, ceemdan
 from config import *
 
 
@@ -41,7 +42,7 @@ class DataLoader():
                     a = np.zeros((5,))
                     a[labels[i]] = 1 
                     a = np.reshape(a, (None,5))
-                    x_train.append(eemd(data[i]))
+                    x_train.append(EMD.emd(data[i]))
                     y_train.append(a)
 
         return np.asarray(x_train), np.asarray(y_train)
