@@ -1,0 +1,6 @@
+pandas==1.1.4
+numpy==1.19.5
+mne==0.22.0
+matplotlib==3.3.3
+glob2==0.7
+datetime==4.3
