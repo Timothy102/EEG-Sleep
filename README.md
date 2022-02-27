@@ -66,11 +66,14 @@ python train.py --filepath data --batch_size 32 --epochs 10
 
 Follow the steps in test.sh :)
 
-## Contact and Acknowledgements
-
-I would like to thank the Physionet's Sleep EDF community for the open dataset upon which my research was concluded. Feel free to contact me with any proposals on LinkedIn: linkedin.com/in/tim-cvetko-32842a1a6/ or Mail: cvetko.tim@gmail.com :D
-
-
 ## References
  [github:akaraspt](https://github.com/akaraspt/deepsleepnet)  
  [deepschool.io](https://github.com/sachinruk/deepschool.io/blob/master/DL-Keras_Tensorflow)
+
+## Contact
+Please, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/tim-cvetko-32842a1a6/) or [Gmail](tim@metawaveai.com).
+
+## License
+
+Licensed under the MIT [LICENSE](LICENSE)
+
