@@ -5,6 +5,7 @@ Sleep specialists often conduct manual sleep stage scoring by visually inspectin
 In this paper, we propose a novel method and a practical approach to predicting early onsets of sleep syndroms, including restless leg syndrome, insomnia, based on an algorithm which is comprised of two modules. A Fast Fourier Transform is applied to 30 seconds long epochs of EEG recordings to provide localized time-frequency information, and a deep convolutional LSTM neural network is trained for sleep stage classification. Automating sleep stages detection from EEG data offers a great potential to tackling sleep irregularities on a daily basis. Thereby, a novel approach for sleep stage classification is proposed which combines the best of signal processing and statistics. In this study, we used the PhysioNet Sleep European Data Format (EDF) Database. The code evaluation showed impressive results, reaching accuracy of 90.43, precision of 77.76, recall of 93,32, F1-score of 89.12 with the final mean false error loss 0.09.
 
 You can read the whole paper at : https://arxiv.org/pdf/2107.03387.pdf
+
 The paper has also been published with Bohr Publisher: Journal BIJFRAI: https://www.bohrpub.com/journals/BIJFRAI/Vol1N1/BIJFRAI_20211102.pdf
 
 ## The Model Architecture
